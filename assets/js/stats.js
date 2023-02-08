@@ -246,12 +246,8 @@ let chart3 = new Chart(chartRef3, {
   },
 });
 
-let newData = [20, 20, 20, 20, 20, 20, 1];
-//let newData = ["MM", "M", "M", "M", "M", "M", "M"];
-//chart1.data["labels"] = newData;
-
-//chart1.data["datasets"]["label"] = "yo";
-chart1.data.datasets["label"] = "yo";
+let newData = [100, 80, 60, 40, 20, 10, 1];
+chart1.data.datasets[0].data = newData;
 
 }
 
