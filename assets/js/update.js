@@ -106,7 +106,7 @@ let clase_cambio = '';
   } else {
       clase_cambio = 'text-danger';
  }
-listofDiv[0].innerHTML = `<p class="mb-0"><span class="text-sm ${clase_cambio} font-weight-bolder"> ${porcentA} </span> ${mensaje_tiempoA} </p>`
+listofDiv[0].innerHTML = `<p class="mb-0"><span class="text-sm ${clase_cambio} font-weight-bolder"> ${porcentA.toFixed(2)} </span> ${mensaje_tiempoA} </p>`
 
 
 if (porcentB > 0) {
@@ -114,7 +114,7 @@ if (porcentB > 0) {
 } else {
     clase_cambio = 'text-danger';
 }
-listofDiv[1].innerHTML = `<p class="mb-0"><span class="text-sm ${clase_cambio} font-weight-bolder"> ${porcentB} </span> ${mensaje_tiempoB} </p>`
+listofDiv[1].innerHTML = `<p class="mb-0"><span class="text-sm ${clase_cambio} font-weight-bolder"> ${porcentB.toFixed(2)} </span> ${mensaje_tiempoB} </p>`
 
 
 if (porcentC > 0) {
@@ -122,7 +122,7 @@ if (porcentC > 0) {
 } else {
     clase_cambio = 'text-danger';
 }
-listofDiv[2].innerHTML = `<p class="mb-0"><span class="text-sm ${clase_cambio} font-weight-bolder"> ${porcentC} </span> ${mensaje_tiempoC} </p>`
+listofDiv[2].innerHTML = `<p class="mb-0"><span class="text-sm ${clase_cambio} font-weight-bolder"> ${porcentC.toFixed(2)} </span> ${mensaje_tiempoC} </p>`
 
 
 if (porcentD > 0) {
@@ -130,7 +130,7 @@ if (porcentD > 0) {
 } else {
     clase_cambio = 'text-danger';
 }
-listofDiv[3].innerHTML = `<p class="mb-0"><span class="text-sm ${clase_cambio} font-weight-bolder"> ${porcentD} </span> ${mensaje_tiempoD} </p>`
+listofDiv[3].innerHTML = `<p class="mb-0"><span class="text-sm ${clase_cambio} font-weight-bolder"> ${porcentD.toFixed(2)} </span> ${mensaje_tiempoD} </p>`
 
 };
 
